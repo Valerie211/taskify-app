@@ -83,7 +83,7 @@ const SignUp = () => {
                      name="phone"
                      value={payload.phone}
                     //  required
-                     onChange={(e)=>setPayload(e.target.value)}
+                     onChange={handleChange}
                      className="border-2 py-2 px-2 border-[#A748F6] rounded-md " />
                 </div>
                 <div className="flex flex-col gap-1 text-sm w-1/2">
